@@ -1,0 +1,30 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+.metadata
+flutter_export_environment.sh
+linux/
+macos/
+windows/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# ML models
+*.pt
+*.pth
+*.pkl
+
+# Node
+node_modules/
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
