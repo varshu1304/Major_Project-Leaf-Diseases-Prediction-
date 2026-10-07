@@ -18,6 +18,8 @@ frontend/build/
 
 # Firebase generated cache
 frontend/.firebase/
+frontend/build/
+frontend/.dart_tool/
 
 # IDE
 .vscode/
