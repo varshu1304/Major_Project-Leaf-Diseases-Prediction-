@@ -1,8 +1,7 @@
 fastapi
 uvicorn
+python-multipart
+pillow
 torch
 torchvision
-pillow
-numpy
-scikit-learn
-joblib
+groq

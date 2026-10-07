@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Place this file at:
+  android/app/src/main/res/xml/network_security_config.xml
+
+  Allows plain http:// traffic (needed to reach your local FastAPI
+  server, since it isn't served over https). Referenced from
+  AndroidManifest.xml via android:networkSecurityConfig.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

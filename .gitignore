@@ -1,30 +1,34 @@
-# Flutter
-.dart_tool/
-.packages
-.pub/
-build/
-.metadata
-flutter_export_environment.sh
-linux/
-macos/
-windows/
-
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
 venv/
+env/
 
-# ML models
-*.pt
-*.pth
-*.pkl
-
-# Node
-node_modules/
-
-# Env
+# Environment variables / secrets
 .env
+*.env
+
+# Flutter
+frontend/.dart_tool/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/build/
+
+# Firebase generated cache
+frontend/.firebase/
 
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python model/cache files
+*.pyc
+
+# Logs
+*.log
